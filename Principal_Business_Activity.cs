@@ -42,13 +42,13 @@ namespace Project1_Data_Project
 
                  if (yr == 2015)
                    {
-                      string company_string = v.PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN;
+                      string principal_activity = v.PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN;
 
-                      if(dict.ContainsKey(company_string) && dict[company_string] != 0)
-                        dict[company_string]++;
+                      if(dict.ContainsKey(principal_activity) && dict[principal_activity] != 0)
+                        dict[principal_activity]++;
 
                       else                        
-                        dict.Add(company_string, 1);                       
+                        dict.Add(principal_activity, 1);                       
                    }
               }
          }           
