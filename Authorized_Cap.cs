@@ -1,4 +1,3 @@
-﻿/*
 using System;
 using System.IO;
 using CsvHelper;
@@ -18,9 +17,7 @@ namespace Project1_Data_Project
             //we will not create a csv parser , we will use an existing parser available in the market.  Here in this blog, I will use csvHelper for C#.
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             { 
-              //csv.Read();
-              //csv.ReadHeader();
-                while (csv.Read())
+                    while (csv.Read())
                     {
                     //CSVReader will now read the whole file into variable
                          var record = csv.GetRecord<WestBengal>();
@@ -48,87 +45,3 @@ namespace Project1_Data_Project
         }
     }
 }
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-                       / DateTime year = Convert.ToDateTime(record.DATE_OF_REGISTRATION);
-
-                        int yr = year.Year;
-
-                        if (yr == 2000)
-                            count0++;
-                        else if (yr == 2001)
-                            count1++;
-                        else if (yr == 2002)
-                            count2++;
-                        else if (yr == 2003)
-                            count3++;
-                        else if (yr == 2004)
-                            count4++;
-                        else if (yr == 2005)
-                            count5++;
-                        else if (yr == 2006)
-                            count6++;
-                        else if (yr == 2007)
-                            count7++;
-                        else if (yr == 2008)
-                            count8++;
-                        else if (yr == 2009)
-                            count9++;
-                        else if (yr == 2010)
-                            count10++;
-                        else if (yr == 2011)
-                            count11++;
-                        else if (yr == 2012)
-                            count12++;
-                        else if (yr == 2013)
-                            count13++;
-                        else if (yr == 2014)
-                            count14++;
-                        else if (yr == 2015)
-                         
-   count15++;
-                        else if (yr == 2016)
-                            count16++;
-                        else if (yr == 2017)
-                            count17++;
-                        else if (yr == 2018)
-                            count18++;
-                        else if (yr == 2019)
-                            count19++;
-
-
-            var table1 = new ConsoleTable("Year", "Number of Registrations");
-            table1.AddRow("2000", count0).AddRow("2001", count1).AddRow("2002", count2).AddRow("2003", count3)
-                  .AddRow("2004", count4).AddRow("2005", count5).AddRow("2006", count6).AddRow("2007", count7)
-                 .AddRow("2008", count8).AddRow("2009", count9).AddRow("2010", count10).AddRow("2011", count11)
-                .AddRow("2012", count12).AddRow("2013", count13).AddRow("2014", count14).AddRow("2015", count15)
-                .AddRow("2016", count16).AddRow("2017", count17).AddRow("2018", count18).
-                 AddRow("2019", count19);
-            table1.Write();
- */
