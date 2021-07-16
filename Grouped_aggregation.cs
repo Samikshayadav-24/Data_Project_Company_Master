@@ -1,4 +1,3 @@
-﻿/*
 using System;
 using System.IO;
 using CsvHelper;
@@ -67,4 +66,3 @@ namespace Project1_Data_Project
         }
     }
 }
-*/
