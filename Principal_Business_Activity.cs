@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using System;
 using System.IO;
 using CsvHelper;
@@ -61,14 +61,14 @@ namespace Project1_Data_Project
         }
     }
 }
-*/
 
 
 
 
 
-
- /* for(int i = 2000; i <= 2019; i++)
+/*
+//This is for the years 2000 to 2019
+  for(int i = 2000; i <= 2019; i++)
                     {
                          string company_string = v.PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN;
                          if(dict.ContainsKey(company_string) && dict[company_string] != 0)
