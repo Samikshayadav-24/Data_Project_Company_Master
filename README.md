@@ -8,14 +8,14 @@ In this project we are building a simple command-line application that will read
  - [Steps](#Steps)
  - [Note](#Note)
 
- ### _**General Info**_
+ ### _**GeneralInfo**_
 This project is simple project to retrive values from CSV files and print result in the form for table in console.
 
 ### _**Technology**_
 Project is created with:
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
-### _**Setup Packages**_
+### _**Setup**_
 To run this project you need to install the [Csvhelper(27.1.1)](https://www.nuget.org/packages/CsvHelper/) and [ConsoleTable(2.4.2)](https://www.nuget.org/packages/Consoletables/) from Nuget packages.
 ##### _**Steps to install the packages**_
 1. Open the Visual Studio 2019
@@ -34,5 +34,5 @@ To run this project you need to install the [Csvhelper(27.1.1)](https://www.nuge
 5. Select .cs file and run the file.
 
 
-#### _**Important Note**_
+#### _**Note**_
 In one project only one main class can be there  but if you put multiple main classes so make other main as comment /*  */ .
