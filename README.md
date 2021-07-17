@@ -2,11 +2,11 @@
 In this project we are building a simple command-line application that will read in a CSV file,do some aggregation/filtering/grouping functions and print out the results in table format. 
 
 ## _**Table of Contents**_
- - [General_Info](#GeneralInfo)
+ - [GeneralInfo](#GeneralInfo)
  - [Technology](#Technology)
- - [Setup_Packages](#SetupPackages)
+ - [Setup](#Setups)
  - [Steps](#Steps)
- - [Important_Note](#Note)
+ - [Note](#Note)
 
  ### _**General Info**_
 This project is simple project to retrive values from CSV files and print result in the form for table in console.
